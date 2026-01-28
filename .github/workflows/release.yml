@@ -23,7 +23,7 @@ jobs:
       # 即使一个矩阵任务失败，其他任务也会继续运行
       fail-fast: false
       matrix:
-        os: [macos-latest, windows-latest, ubuntu-latest]
+        os: [windows-latest]
     # 开始步骤
     steps:
       # 检出 Git 仓库
